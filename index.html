@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Header-->
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#"><img src="images/logo.jpg" height="80" alt="Logo platzi"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="enlace-menu" href="#quienesSomos">Quienes somos</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="enlace-menu" href="#Registro">Ve la galeria </a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="enlace-menu" href="#">Promociones</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#quienesSomos">Quienes somos</a></li>
+                <li><a href="#registro">Ve la galeria</a></li>
+                <li><a href="#">Promociones</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i> </a>
+        </div>
+    </nav>
+    <!--Header-->
+
+    <!--seccion1-->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center">Pasteleria deliciuous</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Una pasteleria para la vida
+                    </h5>
+                </div>
+                <div class="row center">
+                    <a href="#registro" id="download-button" class="btn-large waves-effect">Registra tu pedido</a>
+                </div>
+                <br> <br>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/pastel1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+    </div>
+    <!--seccion1-->
+
+    <!--Seccion 2 contenido en columnosa-->
+    <div id="quinesSomos" class="container">
+        <div class="section">
+            <!-- Icon Section-->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">child_care</i></h2>
+                        <h5 class="center">Pastel</h5>
+                        <p class="light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat laborum
+                            repudiandae odio dicta possimus qui! Architecto aspernatur accusamus repellat libero? Omnis
+                            voluptatum odit consequatur dignissimos alias dicta ducimus facilis. Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Laudantium, aperiam odit. Mollitia sed quaerat deleniti
+                            nobis. Nobis, officiis aut ullam facere placeat accusamus, illum labore enim doloribus quam
+                            ea eligendi.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">child_care</i></h2>
+                        <h5 class="center">Tarta</h5>
+                        <p class="light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolores nemo suscipit
+                            labore, id iste soluta odio repudiandae incidunt delectus dolorem quos, odit eaque
+                            debitis molestias tenetur impedit quis consequuntur.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">child_care</i></h2>
+                        <h5 class="center">Pay</h5>
+                        <p class="light">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At unde dignissimos est
+                            exercitationem magni ut vitae? Eveniet itaque dignissimos eaque optio totam odit
+                            quisquam consectetur provident excepturi sunt? Veniam, at!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Seccion 2 contenido en columnosa-->
+
+    <!--Seccion 3-->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">Pasteles para cualquier tipo de evento!!!!!
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/bionico.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+    <!--Seccion 3-->
+    <!--Registro-->
+    <section id="registro">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2>Registra tu Pedido</h2>
+                </div>
+            </div>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre de Pastel</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">TIpo de evento</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field cols s12 m6">
+                        <input id="telefono" type="tel" class="validate">
+                        <label for="telefono">Telefono</label>
+                    </div>
+                    <div class="input-field cols s12 m6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Direccion</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">Describre el mensaje del pastel</label>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Registro-->
+    <!--footeer-->
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row center-align">
+                <div class="col s12 l3">
+                    <a href="#"> Preguntas frecuentes</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#"> Terminos y condiciones</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container left">
+                    2019 Copyright No se permite el uso de este contenido
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--footeer-->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
